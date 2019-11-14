@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="600">
     <Grid>
-        <Image HorizontalAlignment="Center" Height="720" Width="588" VerticalAlignment="Center" Source="/images/nariz.png" Stretch="Fill" />
-        <Image HorizontalAlignment="Center" Height="180" Width="252" VerticalAlignment="Top"  Source="/images/boca.png" Stretch="Fill" Margin="0,520,0,0" />
-        <Image HorizontalAlignment="Center" Height="720" Width="588" VerticalAlignment="Center" Source="/images/ojos.png" Stretch="Fill"/>
-        <Image HorizontalAlignment="Center" Height="720" Width="588" VerticalAlignment="Center" Source="/images/mandibula.png" Stretch="Fill"/>
-        <Image HorizontalAlignment="Center" Height="720" Width="588" VerticalAlignment="Center" Source="/images/cabeza.png" Stretch="Fill"/>
+        <Image Name="imgNariz" HorizontalAlignment="Center" Height="196" Width="569" VerticalAlignment="Center" Source="/images/nariz.png" Stretch="Fill" Margin="0,350,0,0" />
+        <Image Name="imgBoca" HorizontalAlignment="Center" Height="180" Width="252" VerticalAlignment="Center" Source="/images/boca.png" Stretch="Fill" Margin="0,450,0,0" />
+        <Image Name="imgOjos" HorizontalAlignment="Center" Height="180" Width="576" VerticalAlignment="Center" Source="/images/ojos.png" Stretch="Fill" Margin="0,80,0,0" />
+        <Image Name="imgMandibula" HorizontalAlignment="Center" Height="281" Width="569" VerticalAlignment="Center" Source="/images/mandibula.png" Stretch="Fill" Margin="0,340,0,0" />
+        <Image Name="imgCabeza" HorizontalAlignment="Center" Height="720" Width="588" VerticalAlignment="Center" Source="/images/cabeza.png" Stretch="Fill"/>
 
 
     </Grid>
