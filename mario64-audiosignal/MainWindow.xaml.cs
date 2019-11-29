@@ -60,7 +60,7 @@ namespace mario64_audiosignal
             var mMandibula = imgMandibula.Height;
             var upCejas = Canvas.GetTop(imgCejas);
 
-            if (frecuenciaFundamental >= 100)
+            if (frecuenciaFundamental >= 400)
             {
                 imgBoca.Height = (mBoca + (frecuenciaFundamental / 70.0f) * 0.5f);
                 Canvas.SetTop(imgBoca, upBoca - (frecuenciaFundamental / 170.0f) * 0.5f);
