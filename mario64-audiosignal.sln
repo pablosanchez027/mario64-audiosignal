@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.29503.13
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mario64-audiosignal", "mario64-audiosignal\mario64-audiosignal.csproj", "{06BF89AA-6D92-4401-8184-11CD30C74703}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mario64-audiosignal", "mario64-audiosignal\mario64-audiosignal.csproj", "{88FAA0EC-46A9-41B0-BFBE-67DB821E4E72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{06BF89AA-6D92-4401-8184-11CD30C74703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{06BF89AA-6D92-4401-8184-11CD30C74703}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{06BF89AA-6D92-4401-8184-11CD30C74703}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{06BF89AA-6D92-4401-8184-11CD30C74703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FAA0EC-46A9-41B0-BFBE-67DB821E4E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FAA0EC-46A9-41B0-BFBE-67DB821E4E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FAA0EC-46A9-41B0-BFBE-67DB821E4E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FAA0EC-46A9-41B0-BFBE-67DB821E4E72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {731A302A-A3F9-42D7-BDD5-4066C57EB0C8}
+		SolutionGuid = {DFC4FA4A-605B-4C8E-A890-D3092D94B2E6}
 	EndGlobalSection
 EndGlobal

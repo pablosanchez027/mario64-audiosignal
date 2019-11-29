@@ -5,14 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mario64_audiosignal"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="600">
-    <Grid>
-        <Image Name="imgNariz" HorizontalAlignment="Center" Height="196" Width="569" VerticalAlignment="Center" Source="/images/nariz.png" Stretch="Fill" Margin="0,350,0,0" />
-        <Image Name="imgBoca" HorizontalAlignment="Center" Height="180" Width="252" VerticalAlignment="Center" Source="/images/boca.png" Stretch="Fill" Margin="0,450,0,0" />
-        <Image Name="imgOjos" HorizontalAlignment="Center" Height="180" Width="576" VerticalAlignment="Center" Source="/images/ojos.png" Stretch="Fill" Margin="0,80,0,0" />
-        <Image Name="imgMandibula" HorizontalAlignment="Center" Height="281" Width="569" VerticalAlignment="Center" Source="/images/mandibula.png" Stretch="Fill" Margin="0,340,0,0" />
-        <Image Name="imgCabeza" HorizontalAlignment="Center" Height="720" Width="588" VerticalAlignment="Center" Source="/images/cabeza.png" Stretch="Fill"/>
+        Title="MainWindow" Height="830" Width="863">
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="218*"/>
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
 
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center" Margin="79,42,79,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Grid.Column="2" Height="16"><Run Text="Elegir disposit"/><Run Text="ivo:"/></TextBlock>
+        <ComboBox x:Name="cmbDispositivos" HorizontalAlignment="Center" Margin="22,63,22,0" VerticalAlignment="Top" Width="222" Grid.Column="2" Height="22"/>
+        <Button x:Name="btnIniciar" Content="Iniciar" HorizontalAlignment="Left" Margin="22,109,0,0" VerticalAlignment="Top" Width="76" Click="btnIniciar_Click" Grid.Column="2" Height="20"/>
+        <Button x:Name="btnDetener" Content="Detener" HorizontalAlignment="Right" Margin="0,109,22,0" VerticalAlignment="Top" Width="76" Click="btnDetener_Click" Grid.Column="2" Height="20"/>
+
+
+        <TextBlock x:Name="lblFrecuencia" HorizontalAlignment="Center" Margin="86,178,86,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" FontSize="36" Width="94" TextAlignment="Center" Grid.Column="2" Height="48"/>
+
+
+        <Canvas x:Name="marioCanvas" HorizontalAlignment="Left" Height="720" Margin="0,0,0,0" VerticalAlignment="Top" Width="588" Grid.Column="0" Grid.ColumnSpan="2">
+            <Image Name="imgNariz" HorizontalAlignment="Left" Height="196" Width="568" VerticalAlignment="Top" Source="/images/nariz.png" Stretch="Fill" Grid.ColumnSpan="4" Grid.RowSpan="4" Canvas.Left="16" Canvas.Top="469" />
+            <Image Name="imgBoca" HorizontalAlignment="Left" Height="186" Width="252" VerticalAlignment="Top" Source="/images/boca.png" Stretch="Fill" Grid.ColumnSpan="2" Panel.ZIndex="-1" Canvas.Left="174" Canvas.Top="522" />
+            <Image Name="imgOjos" HorizontalAlignment="Left" Height="180" Width="576" VerticalAlignment="Top" Source="/images/ojos.png" Stretch="Fill" Grid.ColumnSpan="4" Panel.ZIndex="-2" Canvas.Left="12" Canvas.Top="342" />
+            <Image x:Name="imgCejas" HorizontalAlignment="Center" Height="251" Width="533" VerticalAlignment="Top" Source="images/cejas.png" Stretch="Fill" Panel.ZIndex="-1" Canvas.Left="30" Canvas.Top="200"/>
+            <Image Name="imgMandibula" HorizontalAlignment="Left" Height="286" Width="568" VerticalAlignment="Top" Source="/images/mandibula.png" Stretch="Fill" Grid.ColumnSpan="4" Canvas.Left="16" Canvas.Top="422" />
+            <Image Name="imgCabeza" HorizontalAlignment="Center" Height="721" Width="588" VerticalAlignment="Bottom" Source="/images/cabeza.png" Stretch="Fill" Grid.ColumnSpan="2" Panel.ZIndex="-3" Canvas.Bottom="-35" />
+        </Canvas>
 
     </Grid>
 </Window>
